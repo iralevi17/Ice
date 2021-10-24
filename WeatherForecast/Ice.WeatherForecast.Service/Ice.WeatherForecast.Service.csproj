@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Ice.WeatherForecast.Service</AssemblyName>
+    <RootNamespace>Ice.WeatherForecast.Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK" Version="2.3.55.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.2.79" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ice.WeatherForecast.General\Ice.WeatherForecast.General.csproj" />
+  </ItemGroup>
+
+</Project>
